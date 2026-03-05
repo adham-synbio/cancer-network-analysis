@@ -18,7 +18,7 @@ The pipeline integrates:
 ## Repository Structure
 
 ```
-tnbc-network-analysis/
+cancer-network-analysis/
 ├── config.py                         # All paths, thresholds, and hyperparameters
 ├── requirements.txt
 ├── scripts/                          # Numbered pipeline scripts (run in order)
@@ -60,7 +60,7 @@ tnbc-network-analysis/
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/tnbc-network-analysis.git
+git clone https://github.com/adham-synbio/tnbc-network-analysis.git
 cd tnbc-network-analysis
 pip install -r requirements.txt
 ```
@@ -127,7 +127,7 @@ All tunable parameters are in `config.py`:
 
 ## Environment Variable
 
-Set `TNBC_PROJECT_ROOT` to override the default project root (the repository
+Set `CANCER_PROJECT_ROOT` to override the default project root (the repository
 directory):
 
 ```bash
