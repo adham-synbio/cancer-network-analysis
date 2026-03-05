@@ -1,4 +1,4 @@
-# TNBC Network Analysis
+# Cancer Network Analysis
 
 A modular Python pipeline for identifying candidate therapeutic targets in
 Triple-Negative Breast Cancer (TNBC) using protein-protein interaction
