@@ -59,8 +59,8 @@ cancer-network-analysis/
 ## Installation
 
 ```bash
-git clone https://github.com/adham-synbio/tnbc-network-analysis.git
-cd tnbc-network-analysis
+git clone https://github.com/adham-synbio/cancer-network-analysis.git
+cd cancer-network-analysis
 pip install -r requirements.txt
 ```
 
