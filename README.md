@@ -131,6 +131,6 @@ Set `CANCER_PROJECT_ROOT` to override the default project root (the repository
 directory):
 
 ```bash
-export TNBC_PROJECT_ROOT=/path/to/your/data
+export CANCER_PROJECT_ROOT=/path/to/your/data
 python scripts/02_build_network.py
 ```
