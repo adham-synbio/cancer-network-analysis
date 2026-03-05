@@ -1,15 +1,14 @@
 # Cancer Network Analysis
 
 A modular Python pipeline for identifying candidate therapeutic targets in
-Triple-Negative Breast Cancer (TNBC) using protein-protein interaction
-networks, gene expression co-expression, and machine learning.
+Cancer gene essetiality analysis using protein-protein interaction
+networks, graph embedding, gene expression, and machine learning.
 
 ## Overview
 
 The pipeline integrates:
 
 - **STRING v12** – high-confidence human PPI network
-- **METABRIC** – TNBC gene expression for co-expression edge weighting
 - **DepMap CRISPR** – genome-wide essentiality scores for target validation
 - **Node2Vec** – graph embeddings capturing network topology
 - **XGBoost + Logistic Regression** – binary classifiers predicting essential genes
